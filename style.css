@@ -1,0 +1,227 @@
+/* Default CSS */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    max-width: 100%;
+}
+
+/*Font Family*/
+
+body,h1,h2,h3,h4,h5,h6,p,a,span{
+    font-family: 'Work Sans', sans-serif;
+}
+
+
+
+/*Header Style*/
+
+.jon-header{}
+.jon-header .navbar-brand {
+    font-size: 30px;
+    font-weight: 500;
+}
+.jon-header span img {
+    height: 50px;
+    width: auto;
+    border-radius: 50%;
+}
+
+.jon-menu{}
+
+
+/*slider-section*/
+
+.slider-section{
+    background: url(img/ss.jpg) no-repeat center center;
+    padding: 200px ;
+    background-attachment: fixed;
+}
+
+.slider-section h4{
+    font-size: 50px;
+}
+.slider-section h2{
+    font-size: 50px;
+}
+
+.spic{
+    border-radius: 50%;
+    width: 30px;
+    height: auto;
+}
+.default-btn {
+    display: inline-block;
+    background: #b9e1c9;
+    color: black;
+    padding: 3px 10px;
+    padding-bottom: 0;
+    font-size: 30px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.repsol{
+    border-radius: 50%;
+    width: 30px;
+    height: auto; 
+}
+
+.r15{
+    border-radius: 50%;
+    width: 30px;
+    height: auto;
+}
+
+/*About Section*/
+
+.about-section{
+    background: #f7f9ff;
+}
+
+.about-text-left{
+    margin-top: 100px;
+}
+
+.about-text-left .lead {
+    font-size: 24px;
+    line-height: 1.5;
+}
+
+/*Feature Section*/
+.feature-item {
+    height: 300px;
+    box-shadow: 3px 5px 30px 0px rgba(64, 87, 191, .2);
+}
+.left-img-sec {
+    width: 40%;
+    overflow: hidden;
+    border-radius: 5px 0 0 5px;
+}
+
+.left-img-sec img {
+    height: 100%;
+    width: auto !important;
+    position: relative;
+    max-width: inherit;
+    left: -80px;
+}
+
+.left-text-sec {
+    width: 60%;
+    padding: 28px;
+}
+
+p.h1 {
+    font-weight: 500;
+    font-size: 3.6rem;
+    line-height: 1.1;
+}
+
+.left-text-sec h5 {
+    text-align: left;
+    margin-bottom: 18px;
+}
+.left-text-sec p{
+    text-align: left;
+}
+
+/*Portfolio hover css*/
+
+.Portfolio-section{}
+
+.portfolio-item{}
+
+.portfolio-item a{
+    position: relative;
+    display: block;
+}
+
+.portfolio-item a img{}
+
+.portfolio-item a::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(98, 120, 223, .7);
+    opacity: 0;
+    visibility: hidden;
+    transition: .4s;
+}
+
+.portfolio-item:hover a::after{
+    opacity: 1;
+    visibility: visible;
+}
+
+.min-section-bg{
+    background-color: #f7f9ff;
+    
+}
+
+/*Pricing Table section*/
+.pricing-item{
+    background-color: #fff;
+    padding: 50px;
+    box-shadow: 3px 5px 30px 0px rgba(64, 87, 191, .2);
+}
+.pricing-table-section .col h1 {
+    font-size: 50px;
+}
+.pricing-table-section .col h4{
+    font-size: 1.6rem;
+    line-height: 2.5;
+}
+.pricing-item ul {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+    margin-bottom: 45px;
+}
+.pricing-item ul li {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.pricing-item ul li span {
+    color: #6278df;
+    font-size: 25px;
+    font-weight: bold;
+    width: 40px;
+    display: inline-block;
+}
+
+.pricing-item-button{}
+.pricing-item-button a {
+    border-color: #6278df;
+    border-width: 2px;
+    color: #6278df;
+    padding: 14px 30px;
+    font-size: 15px;
+    box-shadow: 3px 5px 30px 0px rgba(64, 87, 191, .2);
+}
+
+
+/* Footer Section */
+.footer-section{
+
+    background-color: #000;
+    height: 70px;
+}
+
+.footer-section .footer{
+
+    text-align: center; 
+}
+
+.footer-section .footer p{
+
+    color: white;
+    line-height: 70px;
+    font-size: 18px;
+}
